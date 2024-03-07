@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout project') {
             steps {
                 echo 'Downloading git directory...'
-                git 'https://github.com/s4n7h0/xvwa.git'
+                git 'https://github.com/futehc/tustsxvwa.git'
             }
         }
         
